@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let messsage;
+let login = prompt('Nhập login: ');
+let message = (login == 'Employee') ?
+    'Hello' :
+    (login == 'Director')?
+        'Greetings' :
+        (login == '') ?
+            'No login' :
+            '';
+alert('Hiển thị: '  +message);
+</script>
+</body>
+</html>
